@@ -1,0 +1,50 @@
+[RESOURCES]
+Domestric Flight
+Clearence Server
+International Flight
+Shop Keeper 1
+Shop Keeper 2
+Officer 1
+Officer 2
+Officer 3
+Officer 4
+Officer 5
+Officer 6
+Officer 7
+Officer 8
+Officer 9
+Flight Informer 1
+Checker 1
+Checker 2
+Checker 3
+Officer 10
+Officer 11
+Officer 12
+[VARIABLES]
+International.NumberIn
+Decide 2.NumberOut False
+Lounge.NumberIn
+Flight Clear.NumberIn
+Queue.NumberIn
+Flight Not Clear.NumberIn
+VIP.NumberOut
+Final CheckUp.NumberIn
+Take Off.NumberOut
+Decide 1.NumberOut True
+Lounge.NumberOut
+Flight Info 1.NumberIn
+Flight Not Clear.NumberOut
+Queue.NumberOut
+Imegression Check.NumberIn
+Decide 5.NumberOut True
+International.NumberOut
+Decide 2.NumberOut True
+Imegression Check.NumberOut
+Decide 5.NumberOut False
+Flight Clear.NumberOut
+Terminal 1.NumberOut
+Decide 1.NumberOut False
+Domestric.NumberOut
+Flight Info 1.NumberOut
+Domestric.NumberIn
+Final CheckUp.NumberOut

@@ -1,0 +1,168 @@
+
+                                      ARENA Simulation Results
+                                    Hrithik - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/12/2021
+Analyst: Rockwell Automation                                         Model revision date: 4/12/2021
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Passanger.VATime                            .14195     8.1613E-04 .10822     .74316       5806    
+Passanger.NVATime                           .00000     .00000     .00000     .00000       5806    
+Passanger.WaitTime                          .11486     (Corr)     .00000     .71644       5806    
+Passanger.TranTime                          .00000     .00000     .00000     .00000       5806    
+Passanger.OtherTime                         .00000     .00000     .00000     .00000       5806    
+Passanger.TotalTime                         .25682     (Corr)     .11352     .98911       5806    
+Lounge.Queue.WaitingTime                    .00811     .00302     .00000     .28579       2325    
+Queue.Queue.WaitingTime                     .01602     .00283     .00000     .27527       5818    
+Imegression Check.Queue.WaitingTime         .01656     (Corr)     .00000     .25000       5817    
+Flight Info 1.Queue.WaitingTime             .00247     (Corr)     .00000     .04634       6123    
+Domestric.Queue.WaitingTime                 3.4962E-04 8.7712E-05 .00000     .01179       1476    
+Final CheckUp.Queue.WaitingTime             .06851     (Corr)     .00000     .44737       5810    
+International.Queue.WaitingTime             7.3326E-04 1.0074E-04 .00000     .01538       4333    
+Flight Not Clear.Queue.WaitingTime          .00728     (Insuf)    .00000     .09863        315    
+Queue 1.WaitingTime                             --         --         --         --          0
+Flight Clear.Queue.WaitingTime              .00685     .00190     .00000     .10821       5807    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passanger.WIP                               8.8841     (Corr)     .00000     29.000     15.000    
+Domestric Flight.NumberBusy                 .19503     .01386     .00000     1.0000     1.0000    
+Domestric Flight.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Domestric Flight.Utilization                .19503     .01386     .00000     1.0000     1.0000    
+Clearence Server.NumberBusy                 .75126     .02569     .00000     1.0000     1.0000    
+Clearence Server.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clearence Server.Utilization                .75126     .02569     .00000     1.0000     1.0000    
+International Flight.NumberBusy             .54424     .02089     .00000     1.0000     .00000    
+International Flight.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+International Flight.Utilization            .54424     .02089     .00000     1.0000     .00000    
+Shop Keeper 1.NumberBusy                    .23706     .01666     .00000     1.0000     1.0000    
+Shop Keeper 1.NumberScheduled               .88741     (Insuf)    .00000     1.0000     1.0000    
+Shop Keeper 1.Utilization                   .23706     .01666     .00000     1.0000     1.0000    
+Shop Keeper 2.NumberBusy                    .24632     .01782     .00000     1.0000     1.0000    
+Shop Keeper 2.NumberScheduled               .89257     (Insuf)    .00000     1.0000     1.0000    
+Shop Keeper 2.Utilization                   .24632     .01782     .00000     1.0000     1.0000    
+Officer 1.NumberBusy                        .49645     .01861     .00000     1.0000     1.0000    
+Officer 1.NumberScheduled                   .89198     (Insuf)    .00000     1.0000     1.0000    
+Officer 1.Utilization                       .49645     .01861     .00000     1.0000     1.0000    
+Officer 2.NumberBusy                        .50491     .01823     .00000     1.0000     1.0000    
+Officer 2.NumberScheduled                   .89391     (Insuf)    .00000     1.0000     1.0000    
+Officer 2.Utilization                       .50491     .01823     .00000     1.0000     1.0000    
+Officer 3.NumberBusy                        .49990     .01857     .00000     1.0000     1.0000    
+Officer 3.NumberScheduled                   .89321     (Insuf)    .00000     1.0000     1.0000    
+Officer 3.Utilization                       .49990     .01857     .00000     1.0000     1.0000    
+Officer 4.NumberBusy                        .49645     .01861     .00000     1.0000     1.0000    
+Officer 4.NumberScheduled                   .89198     (Insuf)    .00000     1.0000     1.0000    
+Officer 4.Utilization                       .49645     .01861     .00000     1.0000     1.0000    
+Officer 5.NumberBusy                        .50491     .01823     .00000     1.0000     1.0000    
+Officer 5.NumberScheduled                   .89391     (Insuf)    .00000     1.0000     1.0000    
+Officer 5.Utilization                       .50491     .01823     .00000     1.0000     1.0000    
+Officer 6.NumberBusy                        .49990     .01857     .00000     1.0000     1.0000    
+Officer 6.NumberScheduled                   .89321     (Insuf)    .00000     1.0000     1.0000    
+Officer 6.Utilization                       .49990     .01857     .00000     1.0000     1.0000    
+Officer 7.NumberBusy                        .49645     .01861     .00000     1.0000     1.0000    
+Officer 7.NumberScheduled                   .89198     (Insuf)    .00000     1.0000     1.0000    
+Officer 7.Utilization                       .49645     .01861     .00000     1.0000     1.0000    
+Officer 8.NumberBusy                        .50491     .01823     .00000     1.0000     1.0000    
+Officer 8.NumberScheduled                   .89391     (Insuf)    .00000     1.0000     1.0000    
+Officer 8.Utilization                       .50491     .01823     .00000     1.0000     1.0000    
+Officer 9.NumberBusy                        .49990     .01857     .00000     1.0000     1.0000    
+Officer 9.NumberScheduled                   .89321     (Insuf)    .00000     1.0000     1.0000    
+Officer 9.Utilization                       .49990     .01857     .00000     1.0000     1.0000    
+Flight Informer 1.NumberBusy                .66772     .02395     .00000     1.0000     1.0000    
+Flight Informer 1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Flight Informer 1.Utilization               .66772     .02395     .00000     1.0000     1.0000    
+Checker 1.NumberBusy                        .76851     .02660     .00000     1.0000     1.0000    
+Checker 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Checker 1.Utilization                       .76851     .02660     .00000     1.0000     1.0000    
+Checker 2.NumberBusy                        .76851     .02660     .00000     1.0000     1.0000    
+Checker 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Checker 2.Utilization                       .76851     .02660     .00000     1.0000     1.0000    
+Checker 3.NumberBusy                        .76851     .02660     .00000     1.0000     1.0000    
+Checker 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Checker 3.Utilization                       .76851     .02660     .00000     1.0000     1.0000    
+Officer 10.NumberBusy                       .49645     .01861     .00000     1.0000     1.0000    
+Officer 10.NumberScheduled                  .89198     (Insuf)    .00000     1.0000     1.0000    
+Officer 10.Utilization                      .49645     .01861     .00000     1.0000     1.0000    
+Officer 11.NumberBusy                       .50491     .01823     .00000     1.0000     1.0000    
+Officer 11.NumberScheduled                  .89391     (Insuf)    .00000     1.0000     1.0000    
+Officer 11.Utilization                      .50491     .01823     .00000     1.0000     1.0000    
+Officer 12.NumberBusy                       .49990     .01857     .00000     1.0000     1.0000    
+Officer 12.NumberScheduled                  .89321     (Insuf)    .00000     1.0000     1.0000    
+Officer 12.Utilization                      .49990     .01857     .00000     1.0000     1.0000    
+Lounge.Queue.NumberInQueue                  .11255     .04354     .00000     8.0000     2.0000    
+Queue.Queue.NumberInQueue                   .55505     (Corr)     .00000     14.000     3.0000    
+Imegression Check.Queue.NumberInQueue       .57354     .07455     .00000     17.000     .00000    
+Flight Info 1.Queue.NumberInQueue           .08988     .01873     .00000     3.0000     .00000    
+Domestric.Queue.NumberInQueue               .00307     8.2444E-04 .00000     1.0000     .00000    
+Final CheckUp.Queue.NumberInQueue           2.3694     (Corr)     .00000     21.000     1.0000    
+International.Queue.NumberInQueue           .01891     .00320     .00000     1.0000     .00000    
+Flight Not Clear.Queue.NumberInQueue        .01364     .00712     .00000     2.0000     .00000    
+Queue 1.NumberInQueue                       .00000     (Insuf)    .00000     .00000     .00000    
+Flight Clear.Queue.NumberInQueue            .23665     .06022     .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Passanger.NumberIn                          5821.0    
+Passanger.NumberOut                         5806.0    
+Domestric Flight.NumberSeized               1476.0    
+Domestric Flight.ScheduledUtilization       .19503    
+Clearence Server.NumberSeized               6122.0    
+Clearence Server.ScheduledUtilization       .75126    
+International Flight.NumberSeized           4333.0    
+International Flight.ScheduledUtilization   .54424    
+Shop Keeper 1.NumberSeized                  1151.0    
+Shop Keeper 1.ScheduledUtilization          .26713    
+Shop Keeper 2.NumberSeized                  1174.0    
+Shop Keeper 2.ScheduledUtilization          .27596    
+Officer 1.NumberSeized                      3849.0    
+Officer 1.ScheduledUtilization              .55657    
+Officer 2.NumberSeized                      3908.0    
+Officer 2.ScheduledUtilization              .56483    
+Officer 3.NumberSeized                      3878.0    
+Officer 3.ScheduledUtilization              .55966    
+Officer 4.NumberSeized                      3849.0    
+Officer 4.ScheduledUtilization              .55657    
+Officer 5.NumberSeized                      3908.0    
+Officer 5.ScheduledUtilization              .56483    
+Officer 6.NumberSeized                      3878.0    
+Officer 6.ScheduledUtilization              .55966    
+Officer 7.NumberSeized                      3849.0    
+Officer 7.ScheduledUtilization              .55657    
+Officer 8.NumberSeized                      3908.0    
+Officer 8.ScheduledUtilization              .56483    
+Officer 9.NumberSeized                      3878.0    
+Officer 9.ScheduledUtilization              .55966    
+Flight Informer 1.NumberSeized              6123.0    
+Flight Informer 1.ScheduledUtilization      .66772    
+Checker 1.NumberSeized                      5810.0    
+Checker 1.ScheduledUtilization              .76851    
+Checker 2.NumberSeized                      5810.0    
+Checker 2.ScheduledUtilization              .76851    
+Checker 3.NumberSeized                      5810.0    
+Checker 3.ScheduledUtilization              .76851    
+Officer 10.NumberSeized                     3849.0    
+Officer 10.ScheduledUtilization             .55657    
+Officer 11.NumberSeized                     3908.0    
+Officer 11.ScheduledUtilization             .56483    
+Officer 12.NumberSeized                     3878.0    
+Officer 12.ScheduledUtilization             .55966    
+System.NumberOut                            5806.0    
+
+
+Simulation run time: 0.58 minutes.
+Simulation run complete.
